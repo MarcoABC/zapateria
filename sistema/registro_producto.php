@@ -37,7 +37,7 @@ if(isset($_POST['registrar_producto']))
 }   
 ?>
 <!-- Begin Page Content -->
-<div class="container-fluid">
+<div class="container-fluid bg-white">
   <!-- Page Heading -->
   <div class="d-sm-flex align-items-center justify-content-between mb-4">
     <h1 class="h3 mb-0 text-gray-800 text-light">Registrar Producto</h1>
