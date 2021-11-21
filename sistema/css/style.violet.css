@@ -2235,11 +2235,7 @@ STYLE SWITCHER FOR DEMO
   background-image: none;
 }
 
-.btn-primary {
-  color: color-yiq(#f03406);
-  background-color: #f03406;
-  border-color: #f03406;
-}
+  
 
 .btn-primary:hover {
   color: color-yiq(#7a4889);
@@ -3048,9 +3044,6 @@ a.text-primary:focus, a.text-primary:hover {
 /*
 * 5. UTILITIES
 */
-.bg-primary {
-  background-color: #f03406 !important;
-}
 
 a.bg-primary:focus, a.bg-primary:hover {
   background-color: #724381 !important;

@@ -37,22 +37,22 @@ if(isset($_POST['registrar_producto']))
 }   
 ?>
 <!-- Begin Page Content -->
-<div class="container-fluid">
+<div class="container-fluid bg-white ">
   <!-- Page Heading -->
   <div class="d-sm-flex align-items-center justify-content-between mb-4">
-    <h1 class="h3 mb-0 text-gray-800 text-light">Registrar Producto</h1>
+    <h1 class="h3 mb-0 text-gray-800">Registrar Producto</h1>
     <a href="lista_productos.php" class="btn btn-primary text-white font-weight-bold">Listar</a>
   </div>
   <!-- Content Row -->
   <div class="row">
     <div class="col-lg-6 m-auto">
       <div class="card">
-        <div class="card-header bg-primary text-white font-weight-bold">
+        <div class="card-header bg-info text-white font-weight-bold">
           Nuevo Producto
         </div>
         <div id="mcform" class="card-body">
           <form action="" method="post" autocomplete="off" id="frm_reg_producto" enctype='multipart/form-data'>
-            <label class="text-warning h3" id="lblMensaje"><?= $mensaje?></label>
+            <label class="text-warning h3" id="lblMensaje"><? if($mensaje) { return $mensaje; } ?></label>
             <div class="form-group">
               <label for="nombre" class="text-light">Nombre</label>
               <input type="text" onkeypress="return /[a-z ]/i.test(event.key)" placeholder="Nombre del producto"
