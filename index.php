@@ -64,7 +64,7 @@ if ($session->is_signed_in()) {
                   <form class="user" method="POST">
                     <?php echo isset($alert) ? $alert : ""; ?>
                     <div class="form-group">
-                      <label for="">Usuario</label>
+                      <label for="">Usuario CAMBIO1👍👍👍👍</label>
                       <input type="text" class="form-control" placeholder="Usuario" name="usuario"></div>
                     <div class="form-group">
                       <label for="">Contraseña</label>
