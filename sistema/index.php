@@ -141,7 +141,8 @@
         </div>
     </div>
     -->
-</div>
+    <!-- PROBANDO GIT -->
+  </div>
 <?php }?>
 <?php if($_SESSION['access'] == 2 || $_SESSION['access'] == 4){?>
 <div class="mt-3 container d-flex align-items-center flex-column">
